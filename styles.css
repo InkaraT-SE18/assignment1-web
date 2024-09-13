@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: white;
+    text-align: left;
+}
+header{
+    padding-top: 15px;
+}
+
+main{
+    padding-top:45px;
+    padding-left:100px;
+    padding-right: 100px;
+    padding-bottom: 170px;
+}
+.main-title{
+    font-family:"Mak", sans-serif;
+    font-size: 65px;
+}
+.main-subtitle{
+    font-size: 50px;
+}
+.main-group{
+    font-family: "Montserrat", sans-serif;
+    font-size: 25px;
+    margin-bottom: 23px;
+}
+.main-students{
+     font-family: "Montserrat", sans-serif;
+    font-size: 25px;
+}
+.main-images-wrapper{
+    display: block;
+    padding-left:658px;
+    padding-right: 100px;
+    padding-bottom: 266px;
+
+}
+.main-img1{
+    width: 250px;
+    height: 350px;
+}
+.main-img2{
+    width: 250px;
+    height: 350px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.buttons {
+    display: flex;
+    margin-top: 20px;
+    padding: 10px 20px;
+}
+
+.btn1 {
+    padding: 10px 20px;
+    font-family:"Montserrat",sans-serif;
+    font-size: 25px;
+    background-color: white;
+    color: black;
+    text-transform: lowercase;
+    text-decoration: none;
+    border-radius: 20px;
+}
+.btn2
+{
+    padding: 10px 20px;
+    font-family:"Montserrat",sans-serif;
+    font-size: 25px;
+    color: white;
+    text-transform: lowercase;}
+
+.btn:hover {
+    background-color: gray;
+}

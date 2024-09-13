@@ -1,0 +1,29 @@
+body{
+    background-color: #E2EAFC;
+    padding-right: 100px;
+    padding-left:100px ;
+    padding-top: 20px;
+    padding-bottom: 60px;
+}
+.img1{
+    width: 360px;
+    height: 360px;
+}
+.img2{
+    width: 360px;
+    height: 360px;
+}
+.img3{
+    width: 360px;
+    height: 360px;
+}
+.text{
+    font-size: 25px;
+    font-family: "Montserrat" , sans-serif;
+}
+.contact-btn{
+    font-size: 25px;
+    font-family: "Montserrat" , sans-serif;
+    color: #0B0B0B;
+
+}
