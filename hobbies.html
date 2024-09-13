@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <head>
-
+<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Our Hobbies</title>
-    <link rel="stylesheet" href="styles2.css">
+    <link rel="stylesheet" href="hobbies.css">
 </head>
 <body>
     <header>
@@ -11,32 +12,37 @@
     </header>
 
     <main>
-        <section class="hobbies-section">
-            <div class="hobby">
-                <img src="your-image1.jpg" alt="Reading">
-                <div class="label">Reading</div>
-            </div>
-            <div class="hobby">
-                <img src="your-image2.jpg" alt="Watching Films">
-                <div class="label">Watching films</div>
-            </div>
-            <div class="hobby">
-                <img src="your-image3.jpg" alt="Swimming">
-                <div class="label">Swimming</div>
-            </div>
-        </section>
+        <div class="images">
 
-        <section class="description">
-            <p>
+                <img class="img1"
+                        srcset="images/фоткаридинг.png,
+                        images/фоткаридинг.2x.png 2x"
+                        src="images/фоткаридинг.png"
+                        alt="Reading">
+
+                <img class="img2"
+
+                        src="images/сериалы.png"
+                        alt="Watching Films">
+
+
+                <img class="img3"
+                        srcset="images/плавание.png,
+                        images/фоткаплавание.2x.png 2x"
+                        src="images/плавание.png"
+                        alt="Swimming">
+        </div>
+
+
+            <p class="text">
                 Reading, swimming, and watching films are enriching hobbies that stimulate both mind and body.
                 Reading expands knowledge and vocabulary, swimming boosts physical fitness and mental well-being,
                 while watching films provides relaxation and cultural insights.
             </p>
-        </section>
+
 
         <footer>
-            <a href="#" class="contact-btn">Contacts</a>
+            <a href="Contacts.html" class="contact-btn">Contacts</a>
         </footer>
     </main>
 </body>
-</html>
